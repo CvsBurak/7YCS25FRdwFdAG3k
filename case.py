@@ -10,7 +10,7 @@ from tensorflow.keras.layers.experimental.preprocessing import StringLookup
 
 
 df = pd.read_csv(
-    "/Users/cvsburak/Desktop/Python/.venv/term-deposit-marketing-2020.csv")
+    "./term-deposit-marketing-2020.csv")
 
 df.y.replace(to_replace=dict(yes=1, no=0), inplace=True)
 
